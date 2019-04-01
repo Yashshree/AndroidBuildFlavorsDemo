@@ -3,6 +3,7 @@ package com.example.kotlinfearuretesting
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import com.example.kotlinfearuretesting.BuildConfig.API
 
 class MainActivity : AppCompatActivity() {
 
@@ -12,5 +13,11 @@ class MainActivity : AppCompatActivity() {
 
       //  println(getString(R.string.app_name))
         Log.e("app name",getString(R.string.app_name))
+
+        //val view=RecyclerView(this)
+
+        Log.e("API=",API)
+
+
     }
 }
